@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Cliente Reginaldo = new Cliente();
         Reginaldo.setNome("Reginaldo");
+
         Cliente Regiane = new Cliente();
         Regiane.setNome("Regiane");
 

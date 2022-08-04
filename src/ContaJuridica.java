@@ -6,6 +6,7 @@ public class ContaJuridica extends Conta {
         super(cliente);
     }
 
+
     @Override
     public void imprimirExtrato() {
         System.out.println("=== Extrato Conta Juridica ===");
