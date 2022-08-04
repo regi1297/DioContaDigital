@@ -11,8 +11,8 @@ public class Main {
         Conta poupanca = new ContaPoupanca(Reginaldo);
         Conta juridica = new  ContaJuridica(Regiane);
 
-        cc.depositar(200);
-        cc.transferir(100, poupanca);
+        cc.depositar(400);
+        cc.transferir(150, poupanca);
         juridica.depositar(100);
 
         cc.imprimirExtrato();
